@@ -16,11 +16,11 @@ body {
     padding: 10px;
     background: #ffffff;
     z-index: 1;
-    border-bottom: 2px solid #777777;
-    position: fixed;
+    border-bottom: 5px solid #777777;
+    position: relative;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Georgia, Times, Times New Roman, serif;
 }
 
@@ -30,7 +30,7 @@ h1 {
     padding: 12px;
     margin-left: 110px;
     float: left;
-    position: fixed;
+    position: absolute;
     top: 0px;
     z-index: 2;
     margin-top: 0;
@@ -70,9 +70,11 @@ footer {
     padding: 20px;
     color: #ffffff;
     text-align: center;
-    border-top: 5px solid teal;
+    border-top: 8px solid #4aaaa5;;
     width: 100%;
     bottom: 0;
+    margin-top: auto;
+    position: relative;
 }
 
 section {
@@ -109,3 +111,20 @@ a:visited {
     float: none;
     border: 2px solid #b8b7b7;
 }
+
+h3 {
+    color: #4aaaa5;
+    position: absolute;
+    bottom: 10px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  section {
+    flex: 1;
+    position: relative;
+  }
