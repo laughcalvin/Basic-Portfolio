@@ -42,6 +42,7 @@ h2 {
     color: #4aaaa5;
     border-bottom: 2px solid #b8b7b7;
     padding: 10px;
+    margin-top: 0;
 }
 
 .righttab {
@@ -71,6 +72,7 @@ footer {
     text-align: center;
     border-top: 5px solid teal;
     width: 100%;
+    bottom: 0;
 }
 
 section {
@@ -82,3 +84,11 @@ section {
     margin-bottom: 40px; 
 }
 
+.formline {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
