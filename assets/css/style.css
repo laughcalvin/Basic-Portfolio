@@ -58,7 +58,7 @@ h2 {
 #about, #portfolio {
     border-right: 1px solid #b8b7b7;
 }
-img {
+#me {
     float: left;
     margin-right: 20px; 
     }
@@ -103,4 +103,9 @@ a:link {
 
 a:visited {
     color: #777777
+}
+
+.pfoliopic {
+    float: none;
+    border: 2px solid #b8b7b7;
 }
